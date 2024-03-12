@@ -1,16 +1,25 @@
 .perfect-header {
   padding: 32px 64px 0 64px;
 
+  @media (max-width: 56.25em) {
+    padding: 32px 44px 0 44px;
+  }
+
+  @media (max-width: 26.87em) {
+    padding: 24px 12px 0 12px;
+  }
+
   &__flex {
     justify-content: space-between;
+    align-items: center;
   }
-  
 
   &__nav {
     background-color: var(--primary);
     width: 100%;
     padding: 24px 32px;
     border-radius: 8px;
+    text-transform: capitalize;
   }
 
   &__logo {
@@ -23,11 +32,43 @@
   &__link-box {
     display: flex;
     align-items: center;
+    @media (max-width: 81.25em) {
+      display: none;
+    }
   }
 
   &__link-items {
     margin-right: 32px;
     color: #fff;
   }
-}
 
+  &__mobile-nav {
+    height: 2px;
+    background-color: #fff;
+    width: 50px;
+    position: relative;
+    display: none;
+
+    @media (max-width: 81.25em) {
+      display: block;
+    }
+  }
+
+  &__mobile-nav::before {
+    content: "";
+    height: 2px;
+    background-color: #fff;
+    width: 50px;
+    transform: translateY(-12px);
+    position: absolute;
+  }
+
+  &__mobile-nav::after {
+    content: "";
+    height: 2px;
+    background-color: #fff;
+    width: 50px;
+    position: absolute;
+    transform: translateY(12px);
+  }
+}

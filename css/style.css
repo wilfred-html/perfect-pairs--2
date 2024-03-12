@@ -44,13 +44,21 @@ body {
 
 .perfect-header {
   padding: 32px 64px 0 64px; }
+  @media (max-width: 56.25em) {
+    .perfect-header {
+      padding: 32px 44px 0 44px; } }
+  @media (max-width: 26.87em) {
+    .perfect-header {
+      padding: 24px 12px 0 12px; } }
   .perfect-header__flex {
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
   .perfect-header__nav {
     background-color: var(--primary);
     width: 100%;
     padding: 24px 32px;
-    border-radius: 8px; }
+    border-radius: 8px;
+    text-transform: capitalize; }
   .perfect-header__logo {
     color: #fff;
     font-size: 20px;
@@ -59,6 +67,32 @@ body {
   .perfect-header__link-box {
     display: flex;
     align-items: center; }
+    @media (max-width: 81.25em) {
+      .perfect-header__link-box {
+        display: none; } }
   .perfect-header__link-items {
     margin-right: 32px;
     color: #fff; }
+  .perfect-header__mobile-nav {
+    height: 2px;
+    background-color: #fff;
+    width: 50px;
+    position: relative;
+    display: none; }
+    @media (max-width: 81.25em) {
+      .perfect-header__mobile-nav {
+        display: block; } }
+  .perfect-header__mobile-nav::before {
+    content: "";
+    height: 2px;
+    background-color: #fff;
+    width: 50px;
+    transform: translateY(-12px);
+    position: absolute; }
+  .perfect-header__mobile-nav::after {
+    content: "";
+    height: 2px;
+    background-color: #fff;
+    width: 50px;
+    position: absolute;
+    transform: translateY(12px); }

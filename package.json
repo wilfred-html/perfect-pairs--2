@@ -1,0 +1,14 @@
+{
+  "name": "perfect-pairs--2",
+  "version": "1.0.0",
+  "description": "Second take on this project",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Wilfred Singini",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

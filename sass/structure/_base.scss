@@ -1,0 +1,34 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: currentColor;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+:root {
+  --primary: #F3805B;
+  --secondary: #003138;
+  
+}
+
+body {
+  font-family: Figtree;
+}
+
+.max-width {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}

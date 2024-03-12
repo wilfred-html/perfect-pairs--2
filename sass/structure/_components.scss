@@ -1,0 +1,18 @@
+.btn {
+  &--primary {
+    background-color: var(--primary);
+
+  }
+
+  &--secondary {
+    background-color: var(--secondary)
+  }
+}
+
+a {
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 137.5%;
+}

@@ -5,7 +5,9 @@
   }
 
   &--secondary {
-    background-color: var(--secondary)
+    background-color: var(--secondary);
+    padding: 13px 32px;
+    border-radius: 32px;
   }
 }
 

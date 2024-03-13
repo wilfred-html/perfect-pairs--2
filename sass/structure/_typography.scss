@@ -1,0 +1,69 @@
+a {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 137.5%;
+}
+
+.text-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
+  color: var(--primary-light-40);
+  @media (max-width: 26.87em) {
+    font-size: 18px;
+  }
+}
+
+.text-20 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 187.5%;
+}
+
+.text-18 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text-13 {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.heading-1 {
+  font-family: Playfair Display;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 120%;
+  color: var(--secondary);
+
+  @media (max-width: 56.25em) {
+    font-size: 64px;
+  }
+
+  @media (max-width: 26.87em) {
+    font-size: 48px;
+  }
+}
+
+.heading-2 {
+  font-family: Playfair Display;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  @media (max-width: 26.87em) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 26.87em) {
+    font-size: 36px;
+  }
+}

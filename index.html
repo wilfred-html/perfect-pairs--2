@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perfect pairs || Homepage</title>
     <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
   </head>
   <body>
     <header class="perfect-header">
@@ -40,5 +51,130 @@
         </div>
       </div>
     </section>
+
+    
+
+    <section class="perfect-hero">
+
+      <div class="perfect-slick-text">
+        <div>Love, Help, Loyalty, Kindness, Trust, Care,</div>
+        <div>Love, Help, Loyalty, Kindness, Trust, Care,</div>
+        <div>Love, Help, Loyalty, Kindness, Trust, Care,</div>
+        <div>Love, Help, Loyalty, Kindness, Trust, Care,</div>
+        <div>Love, Help, Loyalty, Kindness, Trust, Care,</div>
+      </div>
+
+      <div class="max-width">
+        <figure class="perfect-hero__img-box">
+          <img src="assets/images/perfect-img.webp" alt="hero img" class="perfect-hero__img">
+        </figure>
+      </div>
+    </section>
+
+    <section class="perfect-options">
+      <div class="max-width">
+        <div class="flex perfect-options__flex">
+          <div class="perfect-options__choice perfect-options__choice--1">
+            <h2 class="perfect-options__heading-2 heading-2">Find an Au pair for your family</h2>
+
+            <div class="perfect-options__content flex">
+              <div class="perfect-options__content-item">
+                <svg class="perfect-options__icon">
+                  <use xlink:href="assets/perfect-pairs.svg#perfect-contacts"></use>
+                </svg>
+
+                <div class="perfect-options__text-13 text-13">
+                  Expertly match with au pairs who fit your family's unique needs.
+                </div>
+              </div>
+              
+              <div class="perfect-options__content-item">
+                <svg class="perfect-options__icon">
+                  <use xlink:href="assets/perfect-pairs.svg#perfect-verified"></use>
+                </svg>
+
+                <div class="perfect-options__text-13 text-13">
+                  Vetted candidates ensure reliability, safety, and peace of mind.
+                </div>
+              </div>
+              
+              <div class="perfect-options__content-item">
+                <svg class="perfect-options__icon">
+                  <use xlink:href="assets/perfect-pairs.svg#perfect-laptop-computer"></use>
+                </svg>
+
+                <div class="perfect-options__text-13 text-13">
+                  Effortlessly navigate our platform for a stress-free au pair search.
+                </div>
+              </div>
+            </div>
+
+            <p class="perfect-options__text-18 text-18">
+              Discover ideal matches with our caring Au Pairs. Unmatched childcare, thoroughly vetted. Redefining excellence for your family's peace of mind.
+            </p>
+          </div>
+
+          <div class="perfect-options__choice perfect-options__choice--2">
+            <h2 class="perfect-options__heading-2 heading-2">Join and Become a
+              trusted Au Pair</h2>
+
+            <div class="perfect-options__content flex">
+              <div class="perfect-options__content-item">
+                <svg class="perfect-options__icon">
+                  <use xlink:href="assets/perfect-pairs.svg#perfect-extension"></use>
+                </svg>
+
+                <div class="perfect-options__text-13 text-13">
+                  Explore opportunities that align with your skills and preferences.
+                </div>
+              </div>
+              
+              <div class="perfect-options__content-item">
+                <svg class="perfect-options__icon">
+                  <use xlink:href="assets/perfect-pairs.svg#perfect-favorite-heart"></use>
+                </svg>
+
+                <div class="perfect-options__text-13 text-13">
+                  Build experience in a professional, supportive environment.
+                </div>
+              </div>
+              
+              <div class="perfect-options__content-item">
+                <svg class="perfect-options__icon">
+                  <use xlink:href="assets/perfect-pairs.svg#perfect-groups"></use>
+                </svg>
+
+                <div class="perfect-options__text-13 text-13">
+                  Join a community of vetted au pairs and families worldwide.
+                </div>
+              </div>
+            </div>
+
+            <p class="perfect-options__text-18 text-18">
+              Embark on a fulfilling journey with us. Gain skills in a supportive environment, vetted for your success. Join our community, redefining au pair experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Slick JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".perfect-slick-text").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 0.1, // Adjust speed as needed
+          infinite: true,
+          cssEase: "linear",
+          speed: 7000, // Adjust speed as needed
+          variableWidth: true, // Allow variable width slides
+        });
+      });
+    </script>
   </body>
 </html>

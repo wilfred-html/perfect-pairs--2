@@ -1,18 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-.btn--primary {
-  background-color: var(--primary); }
-
-.btn--secondary {
-  background-color: var(--secondary);
+.btn {
   padding: 13px 32px;
-  border-radius: 32px; }
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 137.5%; }
+  .btn--primary {
+    background-color: var(--primary);
+    color: #fff; }
+  .btn--secondary {
+    background-color: var(--secondary);
+    color: #fff; }
 
 a {
-  font-family: 'Figtree';
+  font-family: "Figtree";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 137.5%; }
+
+.text-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
+  color: var(--primary-light-40); }
+  @media (max-width: 26.87em) {
+    .text-title {
+      font-size: 18px; } }
+
+.text-20 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 187.5%; }
+
+.heading-1 {
+  font-family: Playfair Display;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 120%;
+  color: var(--secondary); }
+  @media (max-width: 56.25em) {
+    .heading-1 {
+      font-size: 64px; } }
+  @media (max-width: 26.87em) {
+    .heading-1 {
+      font-size: 48px; } }
 
 html {
   font-size: 62.5%; }
@@ -30,6 +62,7 @@ html {
 
 :root {
   --primary: #F3805B;
+  --primary-light-40:#F3805B66;
   --secondary: #003138; }
 
 body {
@@ -46,7 +79,7 @@ body {
   padding: 32px 64px 0 64px; }
   @media (max-width: 56.25em) {
     .perfect-header {
-      padding: 32px 44px 0 44px; } }
+      padding: 32px 12px 0 12px; } }
   @media (max-width: 26.87em) {
     .perfect-header {
       padding: 24px 12px 0 12px; } }
@@ -54,11 +87,11 @@ body {
     justify-content: space-between;
     align-items: center; }
   .perfect-header__nav {
-    background-color: var(--primary);
     width: 100%;
     padding: 24px 32px;
     border-radius: 8px;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    background-color: var(--primary); }
   .perfect-header__logo {
     color: #fff;
     font-size: 20px;
@@ -96,3 +129,24 @@ body {
     width: 50px;
     position: absolute;
     transform: translateY(12px); }
+
+.perfect-whyus {
+  padding: 110px 64px 98px 64px;
+  text-align: center; }
+  @media (max-width: 56.25em) {
+    .perfect-whyus {
+      padding: 99px 12px 73px 12px; } }
+  @media (max-width: 26.87em) {
+    .perfect-whyus {
+      padding: 88px 12px 48px 12px; } }
+  .perfect-whyus__heading-1 {
+    max-width: 858px;
+    margin: 20px auto 30px auto; }
+    @media (max-width: 26.87em) {
+      .perfect-whyus__heading-1 {
+        max-width: 100%;
+        width: 100%;
+        margin: 16px auto 24px auto; } }
+  .perfect-whyus__text-20 {
+    max-width: 620px;
+    margin: 0 auto 48px auto; }

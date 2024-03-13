@@ -1,20 +1,58 @@
 .btn {
+  padding: 13px 32px;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 137.5%;
+  
+
   &--primary {
     background-color: var(--primary);
-
+    color: #fff;
   }
 
   &--secondary {
     background-color: var(--secondary);
-    padding: 13px 32px;
-    border-radius: 32px;
+    color: #fff;
   }
 }
 
 a {
-font-family: 'Figtree';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 137.5%;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 137.5%;
+}
+
+.text-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
+  color: var(--primary-light-40);
+  @media (max-width: 26.87em) {
+    font-size: 18px;
+  }
+}
+
+.text-20 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 187.5%;
+}
+
+.heading-1 {
+  font-family: Playfair Display;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 120%;
+  color: var(--secondary);
+
+  @media (max-width: 56.25em) {
+    font-size: 64px;
+  }
+
+  @media (max-width: 26.87em) {
+    font-size: 48px;
+  }
 }

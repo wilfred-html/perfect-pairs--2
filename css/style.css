@@ -22,6 +22,9 @@ a {
   font-weight: 600;
   line-height: 225%;
   text-align: left; }
+  @media (max-width: 26.87em) {
+    .text-24 {
+      font-size: 20px; } }
 
 .text-20 {
   font-size: 20px;

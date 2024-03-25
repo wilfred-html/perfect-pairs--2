@@ -527,7 +527,7 @@
     padding: 13px 0 13px 21px;
     display: flex;
     align-items: center;
-    color: #00313863;
+    
 
     font-family: Figtree;
     font-size: 20px;
@@ -544,6 +544,14 @@
       margin-bottom: 24px;
     }
   }
+
+  &__full-name::placeholder,
+  &__email-address::placeholder,
+  &__number::placeholder,
+  &__message::placeholder {
+    color: #00313863 !important;
+  }
+  
 
   &__full-name {
     margin-right: 30px;
@@ -566,7 +574,8 @@
   &__interest {
     border: none;
     outline: none;
-    color: #00313863;
+    color: #00313863 !important;
+    height: 56px !important;
   }
 
   &__message {

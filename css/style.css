@@ -452,7 +452,8 @@ img {
     margin-top: 38px;
     margin-bottom: 20px; }
   .perfect-faq__plus {
-    width: 40px;
+    max-width: 40px;
+    min-width: 40px;
     height: 40px;
     display: block; }
 

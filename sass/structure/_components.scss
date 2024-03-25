@@ -10,9 +10,39 @@
     color: #fff;
   }
 
+  &--primary-outline {
+    background-color: transparent;
+   
+    
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    cursor: pointer;
+    transition: all .2s;
+
+ 
+  }
+
+  &--primary-outline:hover {
+    background-color: var(--primary);
+    color: #fff;
+  }
+
   &--secondary {
     background-color: var(--secondary);
     color: #fff;
   }
 }
 
+.page-title {
+  text-align: center;
+
+  &__heading {
+    max-width: 85.8rem;
+    margin: 0 auto;
+  }
+
+  &__p-text {
+    max-width: 62rem;
+    margin: 0 auto;
+  }
+}

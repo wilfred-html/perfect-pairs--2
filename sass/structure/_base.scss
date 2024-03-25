@@ -1,5 +1,7 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+
 }
 
 * {
@@ -22,6 +24,7 @@ html {
 
 body {
   font-family: Figtree;
+  @include backgroundImg-white;
 }
 
 .max-width {
@@ -43,3 +46,4 @@ img {
   height: 100%;
   display: block;
 }
+

@@ -10,10 +10,19 @@ a {
   font-size: 20px;
   font-weight: 600;
   line-height: 150%;
+  text-transform: uppercase;
   color: var(--primary-light-40);
   @media (max-width: 26.87em) {
     font-size: 18px;
   }
+}
+
+.text-24 {
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 225%;
+  text-align: left;
 }
 
 .text-20 {
@@ -55,9 +64,11 @@ a {
   font-family: Playfair Display;
   font-size: 56px;
   font-weight: 500;
-  line-height: 67px;
+  line-height: 120%;
   letter-spacing: 0em;
   text-align: left;
+  color: var(--secondary);
+
 
   @media (max-width: 26.87em) {
     font-size: 46px;

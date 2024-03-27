@@ -25,7 +25,7 @@ a {
   text-align: left;
 
   @media (max-width: 26.87em) {
-    font-size: 20px
+    font-size: 20px;
   }
 }
 
@@ -40,6 +40,14 @@ a {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
+}
+
+.text-15 {
+  font-family: Figtree;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 155%;
+  text-align: left;
 }
 
 .text-13 {
@@ -72,7 +80,6 @@ a {
   letter-spacing: 0em;
   text-align: left;
   color: var(--secondary);
-
 
   @media (max-width: 26.87em) {
     font-size: 46px;

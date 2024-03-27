@@ -37,6 +37,13 @@ a {
   font-weight: 400;
   line-height: 28px; }
 
+.text-15 {
+  font-family: Figtree;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 155%;
+  text-align: left; }
+
 .text-13 {
   font-size: 13px;
   font-weight: 500;
@@ -289,6 +296,34 @@ img {
     .perfect-options__choice--1 .perfect-options__text-18 {
       margin-top: 32px;
       max-width: 545px; }
+  .perfect-options__text-18 {
+    margin-bottom: 32px; }
+  .perfect-options__btn--1, .perfect-options__btn--2 {
+    padding: 13px 32px 13px 32px;
+    display: block;
+    text-align: center;
+    border-radius: 32px;
+    transition: all 0.2s;
+    box-sizing: border-box;
+    border: 2px solid var(--secondary); }
+  .perfect-options__btn--1 {
+    background-color: var(--secondary);
+    padding: 13px 32px 13px 32px;
+    display: block;
+    text-align: center;
+    border-radius: 32px; }
+  .perfect-options__btn--1:hover {
+    background-color: transparent;
+    color: var(--secondary); }
+  .perfect-options__btn--2 {
+    border: 2px solid var(--secondary);
+    padding: 13px 32px 13px 32px;
+    display: block;
+    text-align: center;
+    border-radius: 32px; }
+  .perfect-options__btn--2:hover {
+    background-color: var(--secondary);
+    color: #fff; }
   .perfect-options__choice--2 {
     background-color: transparent;
     padding: 49px 0;
@@ -643,105 +678,111 @@ img {
   .perfect-partners span {
     border-bottom: 2px solid #f3805b4f; }
 
-/* Second Page */
 .perfect-discover {
-  padding: 11rem 0 9.8rem 0; }
-  @media screen and (max-width: 56.25em) {
+  padding: 120px 0 140px 0; }
+  @media (max-width: 56.25em) {
     .perfect-discover {
-      padding: 8.8rem 0 4.8rem 0; } }
-  .perfect-discover .heading-1 {
-    margin-top: 2rem;
-    margin-bottom: 3rem; }
-    @media screen and (max-width: 56.25em) {
-      .perfect-discover .heading-1 {
-        margin-top: 1.6rem;
-        margin-bottom: 2.4rem; } }
-  .perfect-discover .text-20 {
-    margin-bottom: 4.8rem; }
-    @media screen and (max-width: 56.25em) {
-      .perfect-discover .text-20 {
-        margin-bottom: 3.6rem; } }
+      padding: 104px 0 130px 0; } }
+  @media (max-width: 26.87em) {
+    .perfect-discover {
+      padding: 88px 0 120px 0; } }
+  .perfect-discover__title {
+    text-align: center; }
+  .perfect-discover__heading-1 {
+    max-width: 673px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px; }
+  .perfect-discover__text-20 {
+    margin: 0 auto;
+    margin-bottom: 48px;
+    max-width: 631px; }
 
 .perfect-benefits {
-  padding: 9.2rem 0 12rem 0;
-  background-color: var(--primary-color-light);
-  color: var(--secondary-color); }
-  .perfect-benefits__flex {
-    justify-content: space-between; }
-    @media screen and (max-width: 75em) {
-      .perfect-benefits__flex {
-        flex-direction: column-reverse;
-        align-items: start; } }
-    @media screen and (max-width: 38.25em) {
-      .perfect-benefits__flex {
-        justify-content: center; } }
+  background-image: url("/assets/images/Gradient.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 92px 0 120px 0; }
+  @media (max-width: 56.25em) {
+    .perfect-benefits {
+      padding: 78px 0 104px; } }
+  @media (max-width: 26.87em) {
+    .perfect-benefits {
+      padding: 64px 0 88px 0; } }
+  @media (max-width: 75em) {
+    .perfect-benefits__flex {
+      flex-direction: column-reverse;
+      align-items: center; } }
   .perfect-benefits__text-box {
-    margin-right: 8.8rem; }
-    @media screen and (max-width: 75em) {
+    margin-right: 88px; }
+    @media (max-width: 75em) {
       .perfect-benefits__text-box {
-        margin-right: 0; } }
-    .perfect-benefits__text-box h2 {
-      max-width: 405px;
-      color: var(--secondary-color); }
-      @media screen and (max-width: 75em) {
-        .perfect-benefits__text-box h2 {
-          max-width: 100%; } }
-    .perfect-benefits__text-box .text-20 {
-      max-width: 652px;
-      margin-top: 3.2rem;
-      margin-bottom: 3.2rem; }
-      @media screen and (max-width: 75em) {
-        .perfect-benefits__text-box .text-20 {
-          max-width: 100%; } }
-    @media screen and (max-width: 38.25em) {
-      .perfect-benefits__text-box h4 {
-        text-align: center; } }
-  .perfect-benefits__column {
-    margin-top: 2.4rem;
-    display: flex;
-    max-width: 667px; }
-    @media screen and (max-width: 75em) {
-      .perfect-benefits__column {
+        max-width: 557px; } }
+    @media (max-width: 75em) {
+      .perfect-benefits__text-box {
+        margin-right: 0;
+        margin-top: 66px; } }
+    @media (max-width: 26.87em) {
+      .perfect-benefits__text-box {
+        margin-top: 48px; } }
+  .perfect-benefits__heading-2 {
+    max-width: 500px; }
+    @media (max-width: 75em) {
+      .perfect-benefits__heading-2 {
         max-width: 100%; } }
-    @media screen and (max-width: 56.25em) {
-      .perfect-benefits__column {
-        flex-direction: column;
-        align-items: start; } }
-    @media screen and (max-width: 38.25em) {
-      .perfect-benefits__column {
-        align-items: center;
+    @media (max-width: 38.25em) {
+      .perfect-benefits__heading-2 {
+        max-width: 398px; } }
+  .perfect-benefits__text-20 {
+    max-width: 652px;
+    margin: 32px 0; }
+    @media (max-width: 38.25em) {
+      .perfect-benefits__text-20 {
+        font-size: 18px; } }
+  @media (max-width: 75em) {
+    .perfect-benefits__text-options {
+      padding-top: 32px;
+      border-top: 1px solid rgba(0, 0, 0, 0.212); } }
+  .perfect-benefits__text-24 {
+    margin-bottom: 24px; }
+    @media (max-width: 38.25em) {
+      .perfect-benefits__text-24 {
         text-align: center; } }
-  .perfect-benefits__column-item {
-    flex-basis: calc(33.3%); }
-    .perfect-benefits__column-item:not(:last-child) {
-      margin-right: 3.2rem; }
-      @media screen and (max-width: 56.25em) {
-        .perfect-benefits__column-item:not(:last-child) {
-          margin-right: 0;
-          margin-bottom: 3.2rem; } }
-  @media screen and (max-width: 38.25em) {
-    .perfect-benefits__icon-box {
-      width: 100%;
-      display: flex;
-      justify-content: center; } }
+  .perfect-benefits__content {
+    max-width: 667px;
+    display: flex; }
+    @media (max-width: 38.25em) {
+      .perfect-benefits__content {
+        flex-direction: column;
+        text-align: center; } }
+  .perfect-benefits__content-item:not(:last-child) {
+    margin-right: 32px; }
+    @media (max-width: 38.25em) {
+      .perfect-benefits__content-item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 32px; } }
   .perfect-benefits__icon {
-    display: block;
-    height: 3.2rem;
-    width: 3.2rem;
-    margin-bottom: 1.2rem; }
-  .perfect-benefits .text-15 {
-    margin-bottom: 0.8rem;
-    font-weight: 600; }
-  @media screen and (max-width: 56.25em) {
-    .perfect-benefits .text-13 {
-      max-width: 352px; } }
-  @media screen and (max-width: 75em) {
-    .perfect-benefits__img-box {
-      margin-bottom: 4.8rem;
-      width: 100%; } }
-  .perfect-benefits__img {
-    object-fit: cover;
-    object-position: center; }
+    width: 32px;
+    height: 32px; }
+  .perfect-benefits__text-15 {
+    margin: 12px 0 8px 0; }
+    @media (max-width: 38.25em) {
+      .perfect-benefits__text-15 {
+        text-align: center;
+        display: block; } }
+  @media (max-width: 38.25em) {
+    .perfect-benefits__text-13 {
+      max-width: 398px;
+      margin: 0 auto; } }
+  .perfect-benefits__img-box {
+    max-width: 557px;
+    width: 100%;
+    height: 100%; }
+    @media (max-width: 38.25em) {
+      .perfect-benefits__img-box {
+        max-width: 100%;
+        background-color: red; } }
 
 .perfect-pairs {
   padding: 92px 0 120px 0; }
@@ -751,186 +792,40 @@ img {
   @media (max-width: 26.87em) {
     .perfect-pairs {
       padding: 64px 0 88px 0; } }
-  @media screen and (max-width: 62.5em) {
-    .perfect-pairs__flex {
-      flex-direction: column;
-      align-items: center; } }
   .perfect-pairs__text-box {
-    padding-right: 7.2rem;
-    border-right: 1px solid #00000036;
-    flex-shrink: 1; }
-    @media screen and (max-width: 62.5em) {
-      .perfect-pairs__text-box {
-        border: none;
-        padding-right: 0;
-        padding-bottom: 3.2rem;
-        border-bottom: 1px solid #00000036; } }
-    .perfect-pairs__text-box h2 {
-      max-width: 529px;
-      margin-top: 2rem;
-      margin-bottom: 3.2rem; }
-      @media screen and (max-width: 62.5em) {
-        .perfect-pairs__text-box h2 {
-          max-width: 622px; } }
-    .perfect-pairs__text-box p {
-      max-width: 447px; }
-  .perfect-pairs__form-container {
-    flex-shrink: 2;
+    padding: 16px 0 126px 0;
+    margin-right: 74px;
+    max-width: 529px; }
+  .perfect-pairs__heading-2 {
+    margin: 20px 0 32px 0; }
+  .perfect-pairs__text-20 {
+    max-width: 447px; }
+  .perfect-pairs__survey-box {
+    border-left: 1px solid #00000036;
+    padding-left: 87px;
+    text-align: end; }
+  .perfect-pairs__page-number {
+    font-size: 64px;
+    font-family: Playfair Display;
+    font-weight: 600;
+    line-height: 120%; }
+  .perfect-pairs__current-page {
+    color: var(--primary); }
+  .perfect-pairs__max-page {
+    color: rgba(243, 128, 91, 0.32); }
+  .perfect-pairs__survey-form {
+    margin-top: 32px;
+    margin-bottom: 32px; }
+  .perfect-pairs__input {
+    background-color: rgba(250, 214, 202, 0.5);
     max-width: 622px;
     width: 100%;
-    text-align: right;
-    padding-left: 8.7rem; }
-    @media screen and (max-width: 62.5em) {
-      .perfect-pairs__form-container {
-        padding-left: 0;
-        padding-top: 1.2rem;
-        text-align: left; } }
-  .perfect-pairs__count-container {
-    font-family: Playfair Display;
-    font-size: 6.4rem;
-    font-weight: 600;
-    line-height: 85px;
-    letter-spacing: 0em;
-    color: var(--primary-color);
-    margin-bottom: 3.2rem; }
-  .perfect-pairs__count {
-    color: #f37f59; }
-  .perfect-pairs__count-fade--number, .perfect-pairs__count-fade--slash {
-    color: #f3805b52; }
-  .perfect-pairs__full-name, .perfect-pairs__email-address, .perfect-pairs__number, .perfect-pairs__interest, .perfect-pairs__language {
-    width: 100%;
-    background-color: #fad6ca80;
+    padding: 13px 0 13px 20px;
     height: 56px;
-    flex-basis: 50%;
     border-radius: 8px;
-    padding: 1.3rem 0 1.3rem 2.1rem;
-    display: flex;
-    align-items: center;
-    color: #00313863;
     font-family: Figtree;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 187.5%;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-bottom: 3rem; }
-  .perfect-pairs__full-name {
-    margin-right: 3rem; }
-  .perfect-pairs__number {
-    margin-right: 3rem; }
-  .perfect-pairs__interest {
-    border: none;
-    outline: none;
-    color: #00313863; }
-  .perfect-pairs__message {
-    width: 100%;
-    background-color: #fad6ca80;
-    height: 150px;
-    border: none;
-    outline: none;
-    border-radius: 8px;
-    padding: 1.3rem 0 1.3rem 2.1rem;
-    font-family: Figtree;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 187.5%;
-    letter-spacing: 0em;
-    text-align: left; }
-  .perfect-pairs__language {
-    margin-bottom: 0; }
-  .perfect-pairs__buttons {
-    margin-top: 4.2rem; }
-  .perfect-pairs__buttons:first-of-type {
-    margin-right: 3.2rem; }
-
-.perfect-growth {
-  padding: 12rem 0 6.4rem 0; }
-  @media screen and (max-width: 56.25em) {
-    .perfect-growth {
-      padding: 8.8rem 0 4.8rem 0; } }
-  .perfect-growth .heading-1 {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    max-width: 748px; }
-    @media screen and (max-width: 56.25em) {
-      .perfect-growth .heading-1 {
-        margin-top: 1.6rem;
-        margin-bottom: 2.4rem; } }
-  .perfect-growth .text-20 {
-    margin-bottom: 4.8rem; }
-    @media screen and (max-width: 56.25em) {
-      .perfect-growth .text-20 {
-        margin-bottom: 3.6rem; } }
-
-.perfect-hero--2__img-box {
-  max-width: 1240px;
-  width: 100%; }
-
-.perfect-aupair {
-  background-image: url("/assets/images/Gradient.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: var(--primary-color-light);
-  padding: 5rem 0 12rem 0;
-  margin-top: -5rem;
-  z-index: -1; }
-  .perfect-aupair__text-box {
-    max-width: 522px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 9.2rem;
-    margin-bottom: 6.4rem; }
-    .perfect-aupair__text-box .heading-2 {
-      margin-bottom: 3.2rem;
-      text-align: center; }
-  .perfect-aupair__column {
-    margin-top: 2.4rem;
-    display: flex;
-    flex-wrap: wrap; }
-    @media screen and (max-width: 75em) {
-      .perfect-aupair__column {
-        max-width: 100%; } }
-    @media screen and (max-width: 56.25em) {
-      .perfect-aupair__column {
-        flex-direction: column;
-        align-items: start;
-        align-items: center;
-        text-align: center; } }
-  .perfect-aupair__column-item {
-    flex-basis: calc(33.3% - 3.2rem); }
-    .perfect-aupair__column-item:not(:nth-child(6)):not(:nth-child(3)) {
-      margin-right: 3.2rem; }
-      @media screen and (max-width: 56.25em) {
-        .perfect-aupair__column-item:not(:nth-child(6)):not(:nth-child(3)) {
-          margin-right: 0;
-          margin-bottom: 3.2rem; } }
-    .perfect-aupair__column-item:nth-child(4), .perfect-aupair__column-item:nth-child(5), .perfect-aupair__column-item:nth-child(6) {
-      margin-top: 4.8rem; }
-  @media screen and (max-width: 56.25em) {
-    .perfect-aupair__icon-box {
-      width: 100%;
-      display: flex;
-      justify-content: center; } }
-  .perfect-aupair__icon {
-    display: block;
-    height: 3.2rem;
-    width: 3.2rem;
-    margin-bottom: 1.2rem; }
-  .perfect-aupair .text-15 {
-    margin-bottom: 0.8rem;
-    font-weight: 600;
-    color: var(--primary-color); }
-  .perfect-aupair__text {
-    max-width: 393px;
-    margin-top: 1.6rem; }
-    @media screen and (max-width: 56.25em) {
-      .perfect-aupair__text {
-        max-width: 352px; } }
-  @media screen and (max-width: 75em) {
-    .perfect-aupair__img-box {
-      margin-bottom: 4.8rem;
-      width: 100%; } }
-  .perfect-aupair__img {
-    object-fit: cover;
-    object-position: center; }
+    line-height: 150%; }
+    .perfect-pairs__input:not(:last-child) {
+      margin-bottom: 30px; }

@@ -124,9 +124,9 @@ html {
   background-color: transparent; }
 
 :root {
-  --primary: #f3805b;
-  --primary-light-40: #f3805b66;
-  --secondary: #003138; }
+  --primary: rgb(243, 128, 91);
+  --primary-light-40: rgba(243, 128, 91, 0.4);
+  --secondary: rgb(0, 49, 56); }
 
 body {
   font-family: Figtree;
@@ -544,7 +544,13 @@ img {
     font-weight: 500;
     line-height: 187.5%;
     letter-spacing: 0em;
-    text-align: left; }
+    text-align: left;
+    -webkit-appearance: none;
+    /* For iOS Safari */
+    -moz-appearance: none;
+    /* For older versions of Firefox */
+    appearance: none;
+    /* Standard */ }
     @media screen and (max-width: 56.25em) {
       .perfect-contactus__full-name, .perfect-contactus__email-address, .perfect-contactus__number, .perfect-contactus__interest {
         margin-bottom: 32px; } }
@@ -792,10 +798,17 @@ img {
   @media (max-width: 26.87em) {
     .perfect-pairs {
       padding: 64px 0 88px 0; } }
+  @media (max-width: 75em) {
+    .perfect-pairs__flex {
+      flex-direction: column;
+      align-items: center; } }
   .perfect-pairs__text-box {
     padding: 16px 0 126px 0;
     margin-right: 74px;
     max-width: 529px; }
+    @media (max-width: 75em) {
+      .perfect-pairs__text-box {
+        margin-right: 0; } }
   .perfect-pairs__heading-2 {
     margin: 20px 0 32px 0; }
   .perfect-pairs__text-20 {
@@ -804,11 +817,23 @@ img {
     border-left: 1px solid #00000036;
     padding-left: 87px;
     text-align: end; }
+    @media (max-width: 75em) {
+      .perfect-pairs__survey-box {
+        border-left: 0;
+        border-top: 1px solid #00000036;
+        text-align: center;
+        margin-bottom: 12px;
+        padding-left: 0; } }
   .perfect-pairs__page-number {
     font-size: 64px;
     font-family: Playfair Display;
     font-weight: 600;
-    line-height: 120%; }
+    line-height: 120%;
+    max-width: 622px; }
+    @media (max-width: 75em) {
+      .perfect-pairs__page-number {
+        text-align: start;
+        margin: 0 auto; } }
   .perfect-pairs__current-page {
     color: var(--primary); }
   .perfect-pairs__max-page {
@@ -829,3 +854,10 @@ img {
     line-height: 150%; }
     .perfect-pairs__input:not(:last-child) {
       margin-bottom: 30px; }
+  .perfect-pairs__prev {
+    margin-right: 32px;
+    border-color: #F3805B4D;
+    color: #F3805B4D; }
+    .perfect-pairs__prev:hover {
+      background-color: transparent;
+      color: #F3805B4D; }

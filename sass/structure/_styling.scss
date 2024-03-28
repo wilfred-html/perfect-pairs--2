@@ -573,6 +573,10 @@
     letter-spacing: 0em;
     text-align: left;
 
+    -webkit-appearance: none; /* For iOS Safari */
+    -moz-appearance: none; /* For older versions of Firefox */
+    appearance: none; /* Standard */
+
     @media screen and (max-width: 56.25em) {
       margin-bottom: 32px;
     }
@@ -878,7 +882,6 @@
   }
 
   &__content-item {
-    
     @media (max-width: 38.25em) {
     }
   }
@@ -935,10 +938,21 @@
     padding: 64px 0 88px 0;
   }
 
+  &__flex {
+    @media (max-width: 75em) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
   &__text-box {
     padding: 16px 0 126px 0;
     margin-right: 74px;
     max-width: 529px;
+
+    @media (max-width: 75em) {
+      margin-right: 0;
+    }
   }
 
   &__heading-2 {
@@ -954,6 +968,15 @@
 
     padding-left: 87px;
     text-align: end;
+
+    @media (max-width: 75em) {
+      border-left: 0;
+      border-top: 1px solid #00000036;
+      text-align: center;
+      margin-bottom: 12px;
+    padding-left: 0;
+
+    }
   }
 
   &__page-number {
@@ -961,6 +984,12 @@
     font-family: Playfair Display;
     font-weight: 600;
     line-height: 120%;
+    max-width: 622px;
+
+    @media (max-width: 75em) {
+      text-align: start;
+      margin: 0 auto;
+    }
   }
 
   &__current-page {
@@ -978,6 +1007,7 @@
 
   &__input {
     background-color: rgba(250, 214, 202, 0.5);
+
     max-width: 622px;
     width: 100%;
     padding: 13px 0 13px 20px;
@@ -992,4 +1022,17 @@
       margin-bottom: 30px;
     }
   }
+
+  &__prev{
+    margin-right: 32px;
+    border-color: #F3805B4D;
+    color: #F3805B4D;
+
+    &:hover {
+      background-color: transparent;
+    color: #F3805B4D;
+
+    }
+  }
+  
 }

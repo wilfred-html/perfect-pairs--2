@@ -1036,3 +1036,127 @@
   }
   
 }
+
+
+// third page
+.perfect-growth {
+  padding: 120px 0 64px 0;
+
+  @media (max-width: 56.25em) {
+    padding: 104px 0 64px;
+  }
+
+  @media (max-width: 26.87em) {
+    padding: 88px 0 64px 0;
+  }
+
+  
+  &__text-box {
+    text-align: center;
+    max-width: 748px;
+    margin: 0 auto;
+  }
+
+  &__heading-1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  &__text-20 {
+    margin-bottom: 48px;
+  }
+}
+
+.perfect-aupair {
+  padding: 92px 0 92px 0;
+  margin-top: -25px;
+  @include backgroundImg-pink;
+
+  &__text-box {
+    max-width: 525px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__heading-2 {
+    text-align: center;
+    margin-bottom: 32px;  
+  }
+
+  &__column {
+    margin-top: 2.4rem;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 75em) {
+      max-width: 100%;
+      flex-direction: column;
+      align-items: start;
+      align-items: center;
+      text-align: center;
+    }
+
+  }
+
+  &__column-item {
+    flex-basis: calc(33.3% - 3.2rem);
+
+    &:not(:nth-child(6)):not(:nth-child(3)) {
+      margin-right: 3.2rem;
+      // background-color: red;
+
+      @media screen and (max-width: 75em) {
+        margin-right: 0;
+        margin-bottom: 3.2rem;
+      }
+    }
+
+    &:nth-child(4),
+    &:nth-child(5),
+    &:nth-child(6) {
+      margin-top: 4.8rem;
+    }
+  }
+
+  &__icon-box {
+    @media screen and (max-width: 75em) {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__icon {
+    display: block;
+    height: 3.2rem;
+    width: 3.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  & .text-15 {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+
+  &__text {
+    max-width: 393px;
+    margin-top: 1.6rem;
+    @media screen and (max-width: 75em) {
+      max-width: 352px;
+    }
+  }
+
+  &__img-box {
+    @media screen and (max-width: 75em) {
+      margin-bottom: 4.8rem;
+      width: 100%;
+    }
+  }
+
+  &__img {
+    object-fit: cover;
+    object-position: center;
+  };
+  }

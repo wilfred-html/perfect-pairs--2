@@ -861,3 +861,84 @@ img {
     .perfect-pairs__prev:hover {
       background-color: transparent;
       color: #F3805B4D; }
+
+.perfect-growth {
+  padding: 120px 0 64px 0; }
+  @media (max-width: 56.25em) {
+    .perfect-growth {
+      padding: 104px 0 64px; } }
+  @media (max-width: 26.87em) {
+    .perfect-growth {
+      padding: 88px 0 64px 0; } }
+  .perfect-growth__text-box {
+    text-align: center;
+    max-width: 748px;
+    margin: 0 auto; }
+  .perfect-growth__heading-1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+  .perfect-growth__text-20 {
+    margin-bottom: 48px; }
+
+.perfect-aupair {
+  padding: 92px 0 92px 0;
+  margin-top: -25px;
+  background-image: url("/assets/images/Gradient.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .perfect-aupair__text-box {
+    max-width: 525px;
+    margin: 0 auto;
+    text-align: center; }
+  .perfect-aupair__heading-2 {
+    text-align: center;
+    margin-bottom: 32px; }
+  .perfect-aupair__column {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-wrap: wrap; }
+    @media screen and (max-width: 75em) {
+      .perfect-aupair__column {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: start;
+        align-items: center;
+        text-align: center; } }
+  .perfect-aupair__column-item {
+    flex-basis: calc(33.3% - 3.2rem); }
+    .perfect-aupair__column-item:not(:nth-child(6)):not(:nth-child(3)) {
+      margin-right: 3.2rem; }
+      @media screen and (max-width: 75em) {
+        .perfect-aupair__column-item:not(:nth-child(6)):not(:nth-child(3)) {
+          margin-right: 0;
+          margin-bottom: 3.2rem; } }
+    .perfect-aupair__column-item:nth-child(4), .perfect-aupair__column-item:nth-child(5), .perfect-aupair__column-item:nth-child(6) {
+      margin-top: 4.8rem; }
+  @media screen and (max-width: 75em) {
+    .perfect-aupair__icon-box {
+      width: 100%;
+      display: flex;
+      justify-content: center; } }
+  .perfect-aupair__icon {
+    display: block;
+    height: 3.2rem;
+    width: 3.2rem;
+    margin-bottom: 1.2rem; }
+  .perfect-aupair .text-15 {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    color: var(--primary-color); }
+  .perfect-aupair__text {
+    max-width: 393px;
+    margin-top: 1.6rem; }
+    @media screen and (max-width: 75em) {
+      .perfect-aupair__text {
+        max-width: 352px; } }
+  @media screen and (max-width: 75em) {
+    .perfect-aupair__img-box {
+      margin-bottom: 4.8rem;
+      width: 100%; } }
+  .perfect-aupair__img {
+    object-fit: cover;
+    object-position: center; }
